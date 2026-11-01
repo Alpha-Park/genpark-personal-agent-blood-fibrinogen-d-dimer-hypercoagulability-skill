@@ -1,0 +1,21 @@
+{
+  "name": "genpark-personal-agent-blood-fibrinogen-d-dimer-hypercoagulability-skill",
+  "version": "1.0.0",
+  "description": "Plasma functional fibrinogen & D-dimer hypercoagulability/microthrombosis index & Virchow triad risk calculator.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "evaluate_hypercoagulability_index",
+      "description": "Plasma functional fibrinogen & D-dimer hypercoagulability/microthrombosis index & Virchow triad risk calculator.",
+      "sample_input": {
+        "plasma_fibrinogen_mg_dl": 445.0,
+        "d_dimer_ug_ml_feu": 0.68,
+        "hs_crp_mg_l": 2.8
+      }
+    }
+  ]
+}
